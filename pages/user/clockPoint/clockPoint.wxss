@@ -1,0 +1,28 @@
+.clock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  width: 700rpx;
+  margin:0 10px 10px 10px;
+  background-color: #769976;
+  border-radius: 15px;
+}
+.name{
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 20px;
+  color:#fff;
+  text-align: center;
+  
+}
+.time{
+  font-size: 15px;
+  margin-right: 10px;
+}
+.img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

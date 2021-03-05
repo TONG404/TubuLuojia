@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/clockIn/clockIn",
+    "pages/user/user",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#669966",
+    "navigationBarTitleText": "徒步珞珈",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#e6e6e6",
+    "selectedColor": "#336633",
+    "borderStyle": "white",
+    "backgroundColor": "#669966",
+    "list": [
+      {
+        "selectedIconPath": "images/打卡.png",
+        "iconPath": "images/打卡1.png",
+        "pagePath": "pages/clockIn/clockIn",
+        "text": "打卡"
+      },
+      {
+        "selectedIconPath": "images/用户.png",
+        "iconPath": "images/用户1.png",
+        "pagePath": "pages/user/user",
+        "text": "用户"
+      }
+    ]
+  }
+}

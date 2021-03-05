@@ -1,0 +1,7 @@
+<template name="teammates">
+  <view class="teammate">
+    <view class="info" style="width:110rpx">{{name}}</view>
+    <view class="info" style="width:320rpx">{{student_id}}</view>
+    <view class="info" style="width:320rpx">{{telephone}}</view>
+  </view>
+</template>

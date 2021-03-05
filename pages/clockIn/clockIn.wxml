@@ -1,0 +1,23 @@
+<!--pages/clockIn/clockIn.wxml-->
+<view class="all">
+  <view class="name">{{team.name}}</view>
+  <view wx:if="{{category}}"  class="bonus">
+    <text class="text">奖励时间</text>
+		<input class="inputform" name="userID" placeholder="  请输入奖励时间" bindinput="BonusInput"></input>
+  </view>
+  <view class="clock">
+    <button  bind:tap="clock" class="clockBtn">打卡</button>
+    <canvas class="QRCode" canvas-id="myQRCode" style="width:300px;height:300px"></canvas>
+  </view>
+<!--   <view wx:if="{{!isWorker}}" class="attention">
+    <text class="attentionText">
+      ！！！注意：二维码自刷新后一分钟内有效，若失效请点击打卡按钮刷新。
+    </text>
+  </view> -->
+  <view class="attention">
+    <image src="../../images/logo.png" mode='aspectFill' class="logo"></image>
+    <text class="attentionText">
+      ！！！注意：\n\t\t游戏结束处人员先填奖惩时间再扫码！（奖惩时间格式：加三分二十秒->3.20;减三分十五秒->-3.15）\n\t\t显示状态提示均为队伍状态。
+    </text>
+  </view>
+</view>

@@ -1,0 +1,90 @@
+/* pages/user/user.wxss */
+@import"Teammates/teammates.wxss";
+@import"clockPoint/clockPoint.wxss";
+
+.all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.userInfo{
+  display: flex;
+  flex-direction: row;
+  line-height: 50px;
+  margin-top: 20px;
+}
+.userAvatar{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.userID{
+  font-size: 16px;
+  margin-left: 20px;
+}
+.userName{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.team{
+  width: 100%;
+}
+.Tname{
+  height:40px;
+  background-color: #769976;
+  margin: 30px 25px 0px 25px;
+  border-radius: 10px;
+  font-size: 22px;
+  color:#fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+.teammates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  color:#555555;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:#fff;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20rpx;
+}
+.form1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #769976;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title2{
+  font-size: 20px;
+  font-weight: 600;
+  color:#555555;
+}
+.refresh{
+  margin-top:20px;
+  margin-bottom: 10px;
+  border-radius: 20rpx;
+  color:#fff;
+  background-color: #669966c4;
+}

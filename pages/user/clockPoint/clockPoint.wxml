@@ -1,0 +1,8 @@
+<template name="clockPoint">
+  <view class="clock">
+    <view class="name">{{checkpoint_name}}</view>
+    <view class="time">{{user_name}}</view>
+    <view class="time">{{created_at}}</view>
+    <image src="finished.png" class="img"></image>
+  </view>
+</template>

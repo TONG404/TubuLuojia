@@ -1,0 +1,20 @@
+.teammate{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100%;
+  height:30px;
+  background-color: #d9d9d977;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:16px;
+  /* overflow: hidden;    /*超出一行文字自动隐藏*/
+  /* white-space: nowrap; 强制不换行 */ 
+  /*text-overflow: ellipsis;  /*文字隐藏后显示省略号*/
+}

@@ -1,0 +1,59 @@
+/**index.wxss**/
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgb(126, 126, 126);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.getin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.input{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-top: 20px;
+  z-index:99
+}
+.inputform{
+  margin-left: 40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  height:30px;
+  border: 1px solid #336633;
+}
+.loginBtn{
+  margin-top:60px;
+  border-radius: 20rpx;
+  color:#fff;
+  background-color: #669966c4;
+}
+
+.text{
+  color: #336633;
+}
+

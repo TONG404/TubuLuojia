@@ -1,0 +1,37 @@
+<!--pages/user/user.wxml-->
+<import src="Teammates/teammates.wxml" />
+<import src="clockPoint/clockPoint.wxml" />
+
+<view class="all">
+  <view class="userInfo">
+    <image class="userAvatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <view class="userName">{{userInfo.nickName}}</view>
+    <view class="userID">{{profile.student_id}}</view>
+  </view>
+  <view class="team">
+    <view class="Tname">{{team.name}}</view>
+  </view>
+  <view class="teammates">
+    <view class="title">队友信息</view>
+  </view>
+  <view class="form">
+    <view class="form1" style="width:110rpx">姓名</view>
+    <view class="form1" style="width:320rpx">学号</view>
+    <view class="form1" style="width:320rpx">电话</view>
+  </view>
+  <block wx:for="{{teammates}}" wx:for-item="item">
+      <!-- 调用模板 ，注意最后的反斜杠符号-->
+      <template is="teammates" data="{{...item}}" />
+  </block>
+  <view class="teammates">
+      <view class="title">打卡信息</view>
+    <view class="state">    
+      <view >当前状态:{{state}}</view>
+    </view>
+    <button class="refresh" bindtap="refresh">刷新</button>
+  </view>
+  <block wx:for="{{checkpoint_log}}" wx:for-item="item">
+      <!-- 调用模板 ，注意最后的反斜杠符号-->
+      <template is="clockPoint" data="{{...item}}" />
+  </block>
+</view>
